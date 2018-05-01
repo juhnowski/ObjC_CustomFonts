@@ -15,6 +15,8 @@
 		7E90CA0F2098806600FDCFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA0E2098806600FDCFCA /* main.m */; };
 		7E90CA192098806600FDCFCA /* CistomFonts1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA182098806600FDCFCA /* CistomFonts1Tests.m */; };
 		7E90CA242098806600FDCFCA /* CistomFonts1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA232098806600FDCFCA /* CistomFonts1UITests.m */; };
+		7E90CA332098819400FDCFCA /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CA322098819400FDCFCA /* BebasNeue.otf */; };
+		7E90CA35209887DF00FDCFCA /* RuffleScript-DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CA34209887DF00FDCFCA /* RuffleScript-DEMO.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7E90CA1F2098806600FDCFCA /* CistomFonts1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CistomFonts1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E90CA232098806600FDCFCA /* CistomFonts1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CistomFonts1UITests.m; sourceTree = "<group>"; };
 		7E90CA252098806600FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90CA322098819400FDCFCA /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		7E90CA34209887DF00FDCFCA /* RuffleScript-DEMO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RuffleScript-DEMO.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		7E90C9F32098806500FDCFCA = {
 			isa = PBXGroup;
 			children = (
+				7E90CA312098814300FDCFCA /* Resources */,
 				7E90C9FE2098806500FDCFCA /* CistomFonts1 */,
 				7E90CA172098806600FDCFCA /* CistomFonts1Tests */,
 				7E90CA222098806600FDCFCA /* CistomFonts1UITests */,
@@ -130,6 +135,15 @@
 				7E90CA252098806600FDCFCA /* Info.plist */,
 			);
 			path = CistomFonts1UITests;
+			sourceTree = "<group>";
+		};
+		7E90CA312098814300FDCFCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E90CA322098819400FDCFCA /* BebasNeue.otf */,
+				7E90CA34209887DF00FDCFCA /* RuffleScript-DEMO.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E90CA0C2098806600FDCFCA /* LaunchScreen.storyboard in Resources */,
+				7E90CA35209887DF00FDCFCA /* RuffleScript-DEMO.ttf in Resources */,
 				7E90CA092098806600FDCFCA /* Assets.xcassets in Resources */,
+				7E90CA332098819400FDCFCA /* BebasNeue.otf in Resources */,
 				7E90CA072098806500FDCFCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
