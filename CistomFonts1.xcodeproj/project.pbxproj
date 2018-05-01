@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E90CA012098806500FDCFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA002098806500FDCFCA /* AppDelegate.m */; };
+		7E90CA042098806500FDCFCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA032098806500FDCFCA /* ViewController.m */; };
+		7E90CA072098806500FDCFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CA052098806500FDCFCA /* Main.storyboard */; };
+		7E90CA092098806600FDCFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CA082098806600FDCFCA /* Assets.xcassets */; };
+		7E90CA0C2098806600FDCFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CA0A2098806600FDCFCA /* LaunchScreen.storyboard */; };
+		7E90CA0F2098806600FDCFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA0E2098806600FDCFCA /* main.m */; };
+		7E90CA192098806600FDCFCA /* CistomFonts1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA182098806600FDCFCA /* CistomFonts1Tests.m */; };
+		7E90CA242098806600FDCFCA /* CistomFonts1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CA232098806600FDCFCA /* CistomFonts1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E90CA152098806600FDCFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E90C9F42098806500FDCFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E90C9FB2098806500FDCFCA;
+			remoteInfo = CistomFonts1;
+		};
+		7E90CA202098806600FDCFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E90C9F42098806500FDCFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E90C9FB2098806500FDCFCA;
+			remoteInfo = CistomFonts1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E90C9FC2098806500FDCFCA /* CistomFonts1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CistomFonts1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90C9FF2098806500FDCFCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E90CA002098806500FDCFCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E90CA022098806500FDCFCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E90CA032098806500FDCFCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E90CA062098806500FDCFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E90CA082098806600FDCFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E90CA0B2098806600FDCFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E90CA0D2098806600FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90CA0E2098806600FDCFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E90CA142098806600FDCFCA /* CistomFonts1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CistomFonts1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90CA182098806600FDCFCA /* CistomFonts1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CistomFonts1Tests.m; sourceTree = "<group>"; };
+		7E90CA1A2098806600FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90CA1F2098806600FDCFCA /* CistomFonts1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CistomFonts1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90CA232098806600FDCFCA /* CistomFonts1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CistomFonts1UITests.m; sourceTree = "<group>"; };
+		7E90CA252098806600FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E90C9F92098806500FDCFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CA112098806600FDCFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CA1C2098806600FDCFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E90C9F32098806500FDCFCA = {
+			isa = PBXGroup;
+			children = (
+				7E90C9FE2098806500FDCFCA /* CistomFonts1 */,
+				7E90CA172098806600FDCFCA /* CistomFonts1Tests */,
+				7E90CA222098806600FDCFCA /* CistomFonts1UITests */,
+				7E90C9FD2098806500FDCFCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E90C9FD2098806500FDCFCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E90C9FC2098806500FDCFCA /* CistomFonts1.app */,
+				7E90CA142098806600FDCFCA /* CistomFonts1Tests.xctest */,
+				7E90CA1F2098806600FDCFCA /* CistomFonts1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E90C9FE2098806500FDCFCA /* CistomFonts1 */ = {
+			isa = PBXGroup;
+			children = (
+				7E90C9FF2098806500FDCFCA /* AppDelegate.h */,
+				7E90CA002098806500FDCFCA /* AppDelegate.m */,
+				7E90CA022098806500FDCFCA /* ViewController.h */,
+				7E90CA032098806500FDCFCA /* ViewController.m */,
+				7E90CA052098806500FDCFCA /* Main.storyboard */,
+				7E90CA082098806600FDCFCA /* Assets.xcassets */,
+				7E90CA0A2098806600FDCFCA /* LaunchScreen.storyboard */,
+				7E90CA0D2098806600FDCFCA /* Info.plist */,
+				7E90CA0E2098806600FDCFCA /* main.m */,
+			);
+			path = CistomFonts1;
+			sourceTree = "<group>";
+		};
+		7E90CA172098806600FDCFCA /* CistomFonts1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E90CA182098806600FDCFCA /* CistomFonts1Tests.m */,
+				7E90CA1A2098806600FDCFCA /* Info.plist */,
+			);
+			path = CistomFonts1Tests;
+			sourceTree = "<group>";
+		};
+		7E90CA222098806600FDCFCA /* CistomFonts1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E90CA232098806600FDCFCA /* CistomFonts1UITests.m */,
+				7E90CA252098806600FDCFCA /* Info.plist */,
+			);
+			path = CistomFonts1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E90C9FB2098806500FDCFCA /* CistomFonts1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90CA282098806600FDCFCA /* Build configuration list for PBXNativeTarget "CistomFonts1" */;
+			buildPhases = (
+				7E90C9F82098806500FDCFCA /* Sources */,
+				7E90C9F92098806500FDCFCA /* Frameworks */,
+				7E90C9FA2098806500FDCFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CistomFonts1;
+			productName = CistomFonts1;
+			productReference = 7E90C9FC2098806500FDCFCA /* CistomFonts1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E90CA132098806600FDCFCA /* CistomFonts1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90CA2B2098806600FDCFCA /* Build configuration list for PBXNativeTarget "CistomFonts1Tests" */;
+			buildPhases = (
+				7E90CA102098806600FDCFCA /* Sources */,
+				7E90CA112098806600FDCFCA /* Frameworks */,
+				7E90CA122098806600FDCFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E90CA162098806600FDCFCA /* PBXTargetDependency */,
+			);
+			name = CistomFonts1Tests;
+			productName = CistomFonts1Tests;
+			productReference = 7E90CA142098806600FDCFCA /* CistomFonts1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E90CA1E2098806600FDCFCA /* CistomFonts1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90CA2E2098806600FDCFCA /* Build configuration list for PBXNativeTarget "CistomFonts1UITests" */;
+			buildPhases = (
+				7E90CA1B2098806600FDCFCA /* Sources */,
+				7E90CA1C2098806600FDCFCA /* Frameworks */,
+				7E90CA1D2098806600FDCFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E90CA212098806600FDCFCA /* PBXTargetDependency */,
+			);
+			name = CistomFonts1UITests;
+			productName = CistomFonts1UITests;
+			productReference = 7E90CA1F2098806600FDCFCA /* CistomFonts1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E90C9F42098806500FDCFCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SBT;
+				TargetAttributes = {
+					7E90C9FB2098806500FDCFCA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					7E90CA132098806600FDCFCA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7E90C9FB2098806500FDCFCA;
+					};
+					7E90CA1E2098806600FDCFCA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7E90C9FB2098806500FDCFCA;
+					};
+				};
+			};
+			buildConfigurationList = 7E90C9F72098806500FDCFCA /* Build configuration list for PBXProject "CistomFonts1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E90C9F32098806500FDCFCA;
+			productRefGroup = 7E90C9FD2098806500FDCFCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E90C9FB2098806500FDCFCA /* CistomFonts1 */,
+				7E90CA132098806600FDCFCA /* CistomFonts1Tests */,
+				7E90CA1E2098806600FDCFCA /* CistomFonts1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E90C9FA2098806500FDCFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CA0C2098806600FDCFCA /* LaunchScreen.storyboard in Resources */,
+				7E90CA092098806600FDCFCA /* Assets.xcassets in Resources */,
+				7E90CA072098806500FDCFCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CA122098806600FDCFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CA1D2098806600FDCFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E90C9F82098806500FDCFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CA042098806500FDCFCA /* ViewController.m in Sources */,
+				7E90CA0F2098806600FDCFCA /* main.m in Sources */,
+				7E90CA012098806500FDCFCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CA102098806600FDCFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CA192098806600FDCFCA /* CistomFonts1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CA1B2098806600FDCFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CA242098806600FDCFCA /* CistomFonts1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E90CA162098806600FDCFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E90C9FB2098806500FDCFCA /* CistomFonts1 */;
+			targetProxy = 7E90CA152098806600FDCFCA /* PBXContainerItemProxy */;
+		};
+		7E90CA212098806600FDCFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E90C9FB2098806500FDCFCA /* CistomFonts1 */;
+			targetProxy = 7E90CA202098806600FDCFCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E90CA052098806500FDCFCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E90CA062098806500FDCFCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E90CA0A2098806600FDCFCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E90CA0B2098806600FDCFCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E90CA262098806600FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E90CA272098806600FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E90CA292098806600FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = CistomFonts1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.CistomFonts1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E90CA2A2098806600FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = CistomFonts1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.CistomFonts1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E90CA2C2098806600FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = CistomFonts1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.CistomFonts1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CistomFonts1.app/CistomFonts1";
+			};
+			name = Debug;
+		};
+		7E90CA2D2098806600FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = CistomFonts1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.CistomFonts1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CistomFonts1.app/CistomFonts1";
+			};
+			name = Release;
+		};
+		7E90CA2F2098806600FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = CistomFonts1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.CistomFonts1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CistomFonts1;
+			};
+			name = Debug;
+		};
+		7E90CA302098806600FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = CistomFonts1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.CistomFonts1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CistomFonts1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E90C9F72098806500FDCFCA /* Build configuration list for PBXProject "CistomFonts1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CA262098806600FDCFCA /* Debug */,
+				7E90CA272098806600FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E90CA282098806600FDCFCA /* Build configuration list for PBXNativeTarget "CistomFonts1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CA292098806600FDCFCA /* Debug */,
+				7E90CA2A2098806600FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E90CA2B2098806600FDCFCA /* Build configuration list for PBXNativeTarget "CistomFonts1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CA2C2098806600FDCFCA /* Debug */,
+				7E90CA2D2098806600FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E90CA2E2098806600FDCFCA /* Build configuration list for PBXNativeTarget "CistomFonts1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CA2F2098806600FDCFCA /* Debug */,
+				7E90CA302098806600FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E90C9F42098806500FDCFCA /* Project object */;
+}
